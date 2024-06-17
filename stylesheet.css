@@ -1,0 +1,89 @@
+body {
+  background-color: #E3DFF2;
+  font-family: "Ubuntu", sans-serif;
+  color: #1e1e1e;
+  font-size: 1.15em;
+  line-height: 1.8em;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2{
+  color: #323232;
+  font-family: "Playwrite FR Moderne", cursive;
+  line-height: 1.1em;
+}
+
+h1{
+  font-size: 2.1em;
+}
+
+h2{
+  font-size: 1.3em;
+  line-height: 0.7em;
+}
+
+a{
+  background-color: #FF7A5C;
+  padding: 0.7em;
+  text-decoration: none;
+  color: #ffffe3;
+  border: #1e1e1e 2px solid;
+  border-radius: 4px;
+}
+
+a:hover{
+  background-color: #FF69B4;
+  transition: 0.5s;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 3em;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0px;
+}
+
+li a{
+  color: #9723C9;
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+}
+
+li a:hover{
+  color: #FF69B4;
+  background-color: transparent;
+  border: none
+}
+
+img{
+  border-radius:  50%;
+  box-shadow: 3px 3px 0px #7FBC8C;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em auto;
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  img {
+    width: 200px;
+  }
+  p {
+    text-align: center;
+    width: 70%;
+  }
+
+  body {
+    font-size: 1.1em;
+    line-height: 1.8em;
+  }
+}
